@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+​
+int main()
+{
+   double one,two,year;
+	int i,j;
+	scanf("%lf %lf %lf",&one,&two,&year);
+	for(i=1;i<=year;i++)
+	{
+		one=one+(one*two);
+		
+	}
+	printf("%.5lf",one);
+	return 0;
+}​
