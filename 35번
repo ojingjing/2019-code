@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+int main()
+{
+	int x,y,sum=0,i;
+	
+	while(1)
+	{  
+		sum=0;
+		scanf("%d %d",&x,&y);
+  		for(i=x;i<=y;i++)
+		{  
+			sum+=(i*i);
+		}
+		if(x>=y)
+		break;
+		printf("%d",sum);
+		printf("\n");
+   }
+ 
+}​
