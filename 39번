@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+int main()
+{
+	double x,r,y,i=0,sum=0;
+	scanf("%lf %lf %lf",&x,&r,&y);
+	while(1)
+	{
+		x=x+(x*(r/100))-y;
+		
+		if((x*(r/100))>=y)
+		{
+			break;	
+		}
+		i++;
+	
+		if(x<=0)
+		break;
+		
+	}
+	printf("%.0lf",i);
+}​
