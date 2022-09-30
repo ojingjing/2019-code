@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+#include <string.h>
+int main()
+​
+{
+    char a[40];
+	 char b[40];
+    int i,r1,r2,sum;
+    scanf("%s %s \n %d",&a,&b,&i);
+    r1=strlen(a);
+    r2=strlen(b);
+    sum=r1+r2;
+    printf("%d %d",sum,i);
+    return 0;
+}​
