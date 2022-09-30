@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	float r1,r2,r3;
+	float sum;
+	char a[40],b[40];
+	scanf("%s %s \n %f %f %f",a,b,&r1,&r2,&r3);
+	sum=(r1+r2+r3)/3;
+	printf("\"%-10s   %10s\"  %.1f",a,b,sum);
+	return 0;
+}​
